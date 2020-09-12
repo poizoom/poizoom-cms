@@ -13,7 +13,6 @@ collections:
       - label: "Geofences"
         name: "geofences"
         widget: "list"
-        summary: '{{fields.coordinate}}'
         field:
           - { label: "Title", name: "title", widget: "string"}
           - { label: "Coordinate", name: "coordinate", widget: "map" }
