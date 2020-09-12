@@ -4,16 +4,18 @@ backend:
 media_folder: src/assets
 public_folder: /assets
 collections:
-  - name: "pages"
-    label: "Pages"
-    label_singular: "Page" # Used in the UI, ie: "New Post"
-    folder: "content/blog"
+  - name: "geofences"
+    label: "Geofences"
+    label_singular: "Geofence" # Used in the UI, ie: "New Post"
+    folder: "content/geofences"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string"}
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Subtitle", name: "subtitle", widget: "string", required: false}
-      - { label: "Cover", name: "cover", widget: "image", required: false}
-      - { label: "Tags", name: "tags", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: "Coordinates", name: "coordinates", widget: "map" }
+      - { label: "Radius", name: "radius", widget: "number" }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "File", name: "file", widget: "file", required: false }
+      - { label: "Tags", name: "tags", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string", required: false }
 
