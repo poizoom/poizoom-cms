@@ -7,7 +7,7 @@ collections:
   - name: "geofences"
     label: "Geofences"
     label_singular: "Geofence" # Used in the UI, ie: "New Post"
-    folder: "content/geofences"
+    folder: "src/assets/content/geofences"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string"}
