@@ -10,12 +10,17 @@ collections:
     folder: "src/assets/content/geofences"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string"}
-      - { label: "Coordinates", name: "coordinates", widget: "map" }
-      - { label: "Radius", name: "radius", widget: "number" }
-      - { label: "Publish Date", name: "date", widget: "datetime", required: false }
-      - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "File", name: "file", widget: "file", required: false }
-      - { label: "Tags", name: "tags", widget: "string", required: false }
-      - { label: "Author", name: "author", widget: "string", required: false }
+      - label: "Geofences"
+        name: "geofences"
+        widget: "list"
+        summary: '{{fields.coordinate}}'
+        field:
+          - { label: "Title", name: "title", widget: "string"}
+          - { label: "Coordinate", name: "coordinate", widget: "map" }
+          - { label: "Radius", name: "radius", widget: "number" }
+          - { label: "Publish Date", name: "date", widget: "datetime", required: false }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - { label: "File", name: "file", widget: "file", required: false }
+          - { label: "Tags", name: "tags", widget: "string", required: false }
+          - { label: "Author", name: "author", widget: "string", required: false }
 
