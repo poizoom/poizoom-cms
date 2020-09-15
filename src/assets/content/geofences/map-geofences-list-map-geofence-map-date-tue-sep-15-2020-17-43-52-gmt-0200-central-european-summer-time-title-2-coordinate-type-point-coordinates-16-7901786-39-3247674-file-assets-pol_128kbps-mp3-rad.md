@@ -22,6 +22,6 @@ geofences:
       date: 2020-09-15T16:53:01.498Z
       title: MOSA
       radius: 40
-      coordinate: '{"type":"Point","coordinates":[16.8142316,39.4876181]}'
+      coordinate: '{"type":"Point","coordinates":[16.8144791,39.487308]}'
       file: /assets/1.3.mp3
 ---
