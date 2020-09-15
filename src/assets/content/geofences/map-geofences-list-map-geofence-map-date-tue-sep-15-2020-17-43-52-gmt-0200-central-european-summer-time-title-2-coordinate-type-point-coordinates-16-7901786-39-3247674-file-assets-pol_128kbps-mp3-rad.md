@@ -12,4 +12,16 @@ geofences:
       coordinate: '{"type":"Point","coordinates":[16.8160077,39.4873727]}'
       file: /assets/dincise_128kbps.mp3
       radius: 30
+  - geofence:
+      date: 2020-09-15T16:51:45.227Z
+      title: "Selon le Valais et ses hasards "
+      coordinate: '{"type":"Point","coordinates":[16.815766,39.4889573]}'
+      radius: 20
+      file: /assets/antoine_lang_128kbps.mp3
+  - geofence:
+      date: 2020-09-15T16:53:01.498Z
+      title: MOSA
+      radius: 25
+      coordinate: '{"type":"Point","coordinates":[16.8147464,39.4856167]}'
+      file: /assets/1.3.mp3
 ---
