@@ -3,7 +3,7 @@ geofences:
   - geofence:
       date: 2020-09-15T15:43:52.067Z
       title: Flamboyante
-      coordinate: '{"type":"Point","coordinates":[16.8148033,39.4857002]}'
+      coordinate: '{"type":"Point","coordinates":[16.8156471,39.4872151]}'
       file: /assets/pol_128kbps.mp3
       radius: 30
   - geofence:
