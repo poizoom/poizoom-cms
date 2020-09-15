@@ -9,7 +9,7 @@ geofences:
   - geofence:
       date: 2020-09-15T15:46:09.276Z
       title: Le rappel des lacrymos
-      coordinate: '{"type":"Point","coordinates":[16.8160077,39.4873727]}'
+      coordinate: '{"type":"Point","coordinates":[16.8162271,39.4879622]}'
       file: /assets/dincise_128kbps.mp3
       radius: 30
   - geofence:
