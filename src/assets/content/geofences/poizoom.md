@@ -1,7 +1,7 @@
 ---
-title: "Poizoom"
-content: ""
-slug: "poizoom"
+title: Poizoom
+content: Points of Interest Zoom
+slug: poizoom
 geofences:
   - geofence:
       date: 2020-09-15T15:43:52.067Z
