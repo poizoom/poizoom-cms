@@ -5,22 +5,22 @@ local_backend: true
 media_folder: src/assets
 public_folder: /assets
 collections:
-  - name: "geofences"
-    label: "Geofences"
-    label_singular: "Geofence" # Used in the UI, ie: "New Post"
-    folder: "src/assets/content/geofences"
+  - name: "pois"
+    label: "POIs"
+    label_singular: "POI" # Used in the UI, ie: "New Post"
+    folder: "src/assets/content/pois"
     slug: "{{slug}}"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Content", name: "content", widget: "markdown"}
       - {label: "Slug", name: "slug", widget: "string"}
-      - label: "Geofences"
-        name: "geofences"
+      - label: "POIs"
+        name: "pois"
         widget: "list"
         fields:
-          - label: Geofence
-            name: geofence
+          - label: POI
+            name: poi
             widget: object
             required: false
             fields:
@@ -32,3 +32,4 @@ collections:
               - { label: "File", name: "file", widget: "file", required: false }
               - { label: "Tags", name: "tags", widget: "string", required: false }
               - { label: "Author", name: "author", widget: "string", required: false }
+              - { label: "Content", name: "content" widget: "markdown", required: false }
