@@ -40,4 +40,8 @@ pois:
       radius: 40
       coordinate: '{"type":"Point","coordinates":[16.8144791,39.487308]}'
       file: /assets/1.3.mp3
+      content: |-
+        The *sky* is ...
+
+        ![](/assets/210867194_e619a56246_o.jpg)
 ---
