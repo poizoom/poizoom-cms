@@ -1,6 +1,19 @@
 ---
 title: Poizoom
-content: Points of Interest Zoom
+content: |-
+  ![](/assets/22116135195_3d06550882_n.jpg)
+
+  ## This is a header
+
+  Points of Interest *Zoom*
+
+  `Here is some monospaced text`
+
+  * Testing
+  * Lists
+
+    * And Lists
+    * of lists
 slug: poizoom
 geofences:
   - geofence:
