@@ -71,7 +71,7 @@ pois:
   - poi:
       date: 2020-09-16T21:45:47.135Z
       title: New or older
-      coordinate: '{"type":"Point","coordinates":[16.5481675,35.0705921]}'
+      coordinate: '{"type":"Point","coordinates":[16.5953676,39.3572189]}'
       radius: 22
       image: /assets/tmp-cam-4956534788399688801.jpg
       file: /assets/violence.mp3
