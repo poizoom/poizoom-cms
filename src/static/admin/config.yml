@@ -32,4 +32,4 @@ collections:
               - { label: "File", name: "file", widget: "file", required: false }
               - { label: "Tags", name: "tags", widget: "string", required: false }
               - { label: "Author", name: "author", widget: "string", required: false }
-              - { label: "Content", name: "content" widget: "markdown", required: false }
+              - { label: "Content", name: "content", widget: "markdown", required: false }
