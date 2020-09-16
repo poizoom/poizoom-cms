@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+local_backend: true
 media_folder: src/assets
 public_folder: /assets
 collections:
@@ -8,8 +9,12 @@ collections:
     label: "Geofences"
     label_singular: "Geofence" # Used in the UI, ie: "New Post"
     folder: "src/assets/content/geofences"
+    slug: "{{slug}}"
     create: true
     fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Slug", name: "slug", widget: "string"}
       - label: "Geofences"
         name: "geofences"
         widget: "list"
