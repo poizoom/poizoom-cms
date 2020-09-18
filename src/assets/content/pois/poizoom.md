@@ -43,26 +43,26 @@ pois:
   - poi:
       date: 2020-09-15T15:43:52.067Z
       title: Flamboyante
-      coordinate: '{"type":"Point","coordinates":[16.8156471,39.4872151]}'
+      coordinate: '{"type":"Point","coordinates":[39.487271,16.814828]}'
       file: /assets/pol_128kbps.mp3
       radius: 30
   - poi:
       date: 2020-09-15T15:46:09.276Z
       title: Le rappel des lacrymos
-      coordinate: '{"type":"Point","coordinates":[16.8162271,39.4879622]}'
+      coordinate: '{"type":"Point","coordinates":[39.486596,16.815890]}'
       file: /assets/dincise_128kbps.mp3
       radius: 30
   - poi:
       date: 2020-09-15T16:51:45.227Z
       title: "Selon le Valais et ses hasards "
-      coordinate: '{"type":"Point","coordinates":[16.815766,39.4889573]}'
+      coordinate: '{"type":"Point","coordinates":[39.485420,16.816759]}'
       radius: 20
       file: /assets/antoine_lang_128kbps.mp3
   - poi:
       date: 2020-09-15T16:53:01.498Z
       title: MOSA
       radius: 40
-      coordinate: '{"type":"Point","coordinates":[16.8144791,39.487308]}'
+      coordinate: '{"type":"Point","coordinates":[39.485196,16.817977]}'
       file: /assets/1.3.mp3
       content: |-
         The *sky* is ...
@@ -71,7 +71,7 @@ pois:
   - poi:
       date: 2020-09-16T21:45:47.135Z
       title: New or older
-      coordinate: '{"type":"Point","coordinates":[16.5953676,39.3572189]}'
+      coordinate: '{"type":"Point","coordinates":[39.484228,16.817721]}'
       radius: 22
       image: /assets/tmp-cam-4956534788399688801.jpg
       file: /assets/violence.mp3
