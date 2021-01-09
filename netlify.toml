@@ -5,3 +5,8 @@
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+[[redirects]]
+  from = "/search"
+  to = "https://matrix.sane-studio.de/.well-known/matrix"
+  status = 200
+  force = true
